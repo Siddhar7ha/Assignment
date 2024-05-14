@@ -2,31 +2,361 @@
 <html>
 <head>
 
-	
-
 	<title>First assignment</title>
 	<script src="https://cdn.tailwindcss.com"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 
 </head>
 <body>
-	
-<nav>
-	Furni
-	<a href="home.html">Home</a>
+<section id="hero">
+		<nav class="bg-emerald-800 flex justify-between px-5 py-5">
+
+<div>
+
+	<a class="text-neutral-50 text-4xl">Furni</a>
+</div>
+	<div class="text-gray-300 flex gap-3 items-center">
+	<a class="Home" href="home.html">Home</a>
 	<a href="shop.html">Shop</a>
 	<a href="About us.html">About Us</a>
 	<a href="Services.html">services</a>
 	<a href="Blog.html">Blog</a>
 	<a href="contactus.html">Contact Us</a>
+
+	</div>
+
 </nav>
-<section>
-	<h1>Modern Interior Design Studio</h1>
-	<p>Donec viate odio quis nisl dapibus malesuada. Nullam as aliquet velit. Aliquam vulputa velit imperdit donor tempor tristique.</p>
-	<button type="button" onclick="alert('Please shop')">Shop Now</button>
-	<button type="button" onclick="alert('Explore')">Explore</button>
-<img src="couch.png">
+
+
+<div class="bg-emerald-800 px-5">
+<div class="flex flex-col gap-6 pt-6">
+	<h1 class="text-gray-50 text-4xl font-bold">Modern Interior Design Studio</h1>
+	<p class="text-gray-300 text-sm">Donec viate odio quis nisl dapibus malesuada. Nullam as aliquet velit. Aliquam vulputa velit imperdit donor tempor tristique.</p>
+	<div class="flex gap-3">
+	<button class="bg-yellow-400 px-6 py-2 rounded-full font-semibold border border-yellow-400" type="button" onclick="alert('Please shop')">Shop Now</button>
+	<button class="rounded-full px-6 py-2 border border-gray-300 text-gray-50 font-semibold " type="button" onclick="alert('Explore')">Explore</button>
+</div>
+</div>
+<div ><img class="mx-auto" id= "image" src="images/couch.png">
+</div>
+</div>
+</section>
+
+
+<section class="px-5 py-4 bg-zinc-200">
+	<div class="flex flex-col gap-3">
+	<h1 class=" pt-20 font-medium text-2xl">Crafted with excellent material</h1>
+	<p class="">Donec viate odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor temp or tristique.</p>
+	<div>
+		<button class="bg-gray-950 px-6 py-2 rounded-full font-semibold border border-gray-950 text-zinc-50" type="button">Explore</button>
+	</div>
+	</div>
+	<div class="flex gap-4 pt-10">
+		<div >
+			<img src="images/product-1.png">
+			<div class="flex gap-3 flex-col pt-4">
+			<h6 class="font-medium text-center">Nordic chair</h6>
+			<p class="font-bold text-center">$50.00</p>
+		</div>
+		</div>
+		<div>
+			<img src="images/product-2.png">
+			<div class="flex gap-3 flex-col pt-4">
+			<h6 class="font-medium text-center">Kruzo Aero Chair</h6>
+			<p class="font-bold text-center">$78.00</p>
+		</div>
+
+		</div>
+		<div>
+			<img src="images/product-3.png">
+			<div class="flex gap-3 flex-col pt-4">
+			<h6 class="font-medium text-center">Ergonomic Chair</h6>
+			<p class="font-bold text-center">$43.00</p>
+		</div>
+		</div>
+	</div>
+</section>
+
+<section class="px-5 py-5 pt-10 bg-zinc-200">
+	<h6 class="font-medium text-xl">Why Choose Us</h6>
+	<p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. </p>
+	<div class="grid grid-cols-2 gap-6 pt-10">
+		<div>
+			<i class="fa fa-truck" aria-hidden="true"></i>
+		<p class="font-semibold">Fast & Free Shipping</p>
+		<p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+		</div>
+		<div>
+			<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+			<p class="font-semibold">Easy to Shop</p>
+			<p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+		</div>
+
+		<div>
+			<i class="fa fa-life-ring" aria-hidden="true"></i>
+			<p class="font-semibold">24/7 Support</p>
+			<p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+		</div>
+
+		<div>
+			<i class="fa fa-exchange" aria-hidden="true"></i>
+			<p class="font-semibold">Hassle Free Returns</p>
+			<p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+		</div>
+		<div>
+			<img class="size-full" src="images/why-choose-us-img.jpg">
+		</div>
+
+	</div>
 
 </section>
+
+
+<section class="px-5 py-5 pt-10 bg-zinc-200 grid-cols-1 grid-span-2">
+	<div class="flex">
+		<div>
+			<img src="images/img-grid-1.jpg">
+		</div>
+		<div class="grid justify-items-end">
+			<img src="images/img-grid-2.jpg">
+		</div>
+		<div class="grid justify item-button">
+			<img src="images/img-grid-3.jpg">
+		</div>
+	</div>
+
+</section>
+
+<section class="px-5 py-5 pt-10 bg-zinc-200">
+	<div>
+		<h6 class="font-medium text-xl">We Help You Make Modern Interior Design</h6>
+		<p class="text-gray-500 pt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	</div>
+	<div class="list-disc pt-10">
+		<div class=" grid grid-cols-2 gap-6  text-gray-500">
+			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</li>
+		    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</li>
+		
+			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</li>
+		    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</li>
+		</div>
+		
+	</div>
+	<div class="pt-10">
+		<button class="bg-gray-950 px-6 py-2 rounded-full font-semibold border border-gray-950 text-zinc-50 " type="button">Explore</button>
+	</div>
+</section>
+
+
+<section class="px-5 py-5 pt-10 bg-zinc-200">
+	<div class="flex  gap-4 justify-between">
+		<div class="flex" >
+			<img class="w-1/3 h-1/2 rounded-3xl bg-slate-100 mt-10" src="images/product-1.png ">
+			<div class="content-center w-1/3 h-1/2 mt-10 pl-4 text-gray-500">
+				<h6 class="font-medium text-xl">Nordic Chair</h6>
+			
+			    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			    <p >Read More</p>
+			</div>
+
+		</div>
+		<div class="flex">
+			<img class="w-1/4 h-1/2 rounded-3xl bg-slate-100 mt-10" src="images/product-2.png">
+			<div class="content-center w-1/3 h-1/2 mt-10 pl-4 text-gray-500 ">
+				<h6 class="font-medium text-xl"	>Kruzo Aero Chair</h6>
+			    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			    <p>Read More</p>
+			</div>
+			
+		</div>
+	</div>
+	<div class=" flex gap-4 justify-between">
+		<div class="flex ">
+			<img class="w-1/5 h-1/2 rounded-3xl bg-slate-100 mt-10" src="images/product-3.png">
+			<div class="content-center w-1/5 h-1/5 mt-10 pl-4 text-gray-500 ">
+				<h6 class="font-medium text-xl">Ergonomic Chair</h6>
+			    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			    <p>Read More</p>
+			</div>
+			<div>
+				
+			</div>
+
+
+		</div>
+	</div>
+</section>
+
+
+<section class="px-5 py-5 pt-10 bg-zinc-200 ">
+<div class="">
+	<h6 class="text-center font-medium text-xl ">Testimonials</h6>
+	<p class="text-gray-500 pt-10 text-center">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+	<div >
+		<div class="flex gap-10 justify-between">
+			<div class=" bg-gray-500 px-6 py-2 rounded-full w-3">
+			<i class="fa fa-arrow-left" aria-hidden="true"></i>
+		</div>
+		<div class="bg-gray-500 px-6 py-2 rounded-full w-3">
+			<i class="fa fa-arrow-right" aria-hidden="true"></i>
+		</div>
+		</div>
+		
+		<div class="flex justify-center ">
+			<img class="rounded-full w-20" src="images/person-1.png">
+	     </div>
+		<p class="text-center font-small font-semibold text-xl">Maria Jones</p>
+		<p class="text-center text-gray-500">CEO, Co-Founder, XYZ Inc.</p>
+		<i class="flex justify-center pt-10 fa fa-ellipsis-h" aria-hidden="true"></i>
+    </div>
+</div>
+</section>
+<section class="px-5 py-5 pt-10 bg-zinc-200 ">
+	<div class="flex justify-between">
+		<h6 class="font-medium text-xl " >Recent Blog</h6>
+		<p class="underline underline-offset-1">View All Photos</p>
+	</div>
+	<div class="flex gap-4 pt-10">
+	<div>
+		<img class="rounded-3xl bg-zinc-200" src="images/post-1.jpg">
+		<h6 class="font-semibold">First Owner Home Decoration Ideas</h6>
+		<p class="text-slate-400 text-sm">by <span class="font-semibold text-gray-700">Christain Watson</span> on <span class="font-semibold text-gray-900"> Dec 2024</span></p>
+	</div>
+	<div>
+		<img class="rounded-3xl bg-zinc-200" src="images/post-2.jpg">
+		<h6 class="font-semibold">First Owner Home Decoration Ideas</h6>
+		<p class="text-slate-400 text-sm">by <span class="font-semibold text-gray-700">Christain Watson</span> on <span class="font-semibold text-gray-900"> Dec 2024</span></p>
+	</div>
+
+
+	<div>
+				<img class="rounded-3xl bg-zinc-200" src="images/post-3.jpg">
+		<h6 class="font-semibold">First Owner Home Decoration Ideas</h6>
+		<p class="text-slate-400 text-sm">by <span class="font-semibold text-gray-700">Christain Watson</span> on <span class="font-semibold text-gray-900"> Dec 2024</span></p>
+	</div>
+    </div> 
+	
+
+	
+	</section>
+
+	<section class="px-5 py-5 pt-10">
+		<div class="grid justify-items-end">
+			<img src="images/sofa.png">
+		</div>
+		<div class="flex gap-2">
+			<div>
+				<i class="fa fa-envelope" aria-hidden="true"></i>
+			</div>
+			<div class="font-medium text-xl ">
+				<p>Subscribe to Newsletter</p>
+			</div>
+		</div>
+		<div class="flex justify-normal gap-4">
+			<div class="box-border h-12 w-42 p-4 border-4 rounded-3xl border-stone-300	w-80">
+				<p>Enter Your Name</p>
+			</div>
+			<div class="box-border h-12 w-42 p-4 border-4 rounded-3xl border-stone-300 w-80">
+				<p>Enter your email</p>
+			</div>
+			<div>
+				<i class="fa fa-paper-plane rounded-3xl bg-green-800 px-6 py-2 h-12 w-30" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div>
+			<div>
+				<p class="text-4xl pt-10">Furni</p>
+			</div>
+			<div class="text-gray-500">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="flex gap-4 rounded-full pt-10 ">
+					<div>
+						<i class=" bg-emerald-50 fa fa-facebook-official" aria-hidden="true"></i>
+					</div>
+					<div>
+						<i class=" bg-emerald-50 fa fa-twitter" aria-hidden="true"></i>
+					</div>
+					<div>
+						<i class=" bg-emerald-50 fa fa-instagram" aria-hidden="true"></i>
+					</div>
+					<div>
+						<i class=" bg-emerald-50 fa fa-linkedin-square" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="grid  grid-cols-4 text-gray-500 pt-10">
+				<div>
+					<p>About us</p>
+				</div>
+				<div>
+					<p>Support</p>
+				</div>
+				<div>
+					<p>Jobs</p>
+				</div>
+				<div>
+					<p>Nordic Chair</p>
+				</div>
+			
+				<div>
+					<p>Services</p>
+				</div>
+				<div>
+					<p>Knowlwdge base</p>
+				</div>
+				<div>
+					<p>our team</p>
+				</div>
+				<div>
+					<p>Kruzo Aero</p>
+				</div>
+			
+				<div>
+					<p>Blog</p>
+				</div>
+				<div>
+					<p>Live chat</p>
+				</div>
+				<div>
+					<p>Leadership</p>
+				</div>
+				<div>
+					<p>Ergonomic Chair</p>
+				</div>
+			
+				<div>
+					<p>Contact us</p>
+				</div>
+				<div class="grid-clos-start-3">
+					<p>Privacy policy</p>
+				</div>
+		
+		</div>
+		<footer class="text-center	text-gray-500 pt-10">&copy; Copyright 2024. All Rights Reserved-Designed with love by Ubtree.co Distributed By ThemeWagon <br>
+			<p class="whitespace-pre">Terms and Conditions  Privacy Policy</p>
+
+	</section>
+	
 </body>
 </html>
